@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+ 
+ justify-content: center;
+  
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+  text-align: center;
+}
+input{
+  height: 40px;
+  padding: 10px,5px;
+  
+
+}
+button{
+  height: 40px;
+  width:100px;
+  color: white;
+  border-radius: 10px;
+}
+#add-button{
+  background-color: green;
+}
+#delete-button{
+  background-color: rgb(125, 35, 35);
+ 
+}
+.mojo{
+  
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  text-align: center;
+  align-items: center;
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-top: 10px;
+  
+
+  
+}
